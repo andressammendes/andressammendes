@@ -17,7 +17,7 @@
 
   <h2>Olá, eu sou a Andressa! 👋</h2>
 
-<p>🩺 <b>Médica Veterinária Anestesiologista</b> em transição de carreira para <b>Ciência de Dados</b>.</p>
+<p>🩺 <b>Cientista de Dados</b> com sólida bagagem em tomada de decisão e análise crítica (vinda da <b>Anestesiologia Veterinária</b>).</p>
 <p>📊 Unindo a precisão clínica com <b>Machine Learning</b> e <b>Modelagem Preditiva</b>.</p>
 <p>🤖 Uso avançado de ferramentas de IA (<b>Claude Code</b>) para máxima produtividade e eficiência.</p>
 <p>⚡ <b>Altamente engajada</b> com inovação tecnológica e aprendizado contínuo.</p>
