@@ -115,7 +115,7 @@
   <a href="mailto:andressamendes.mv@gmail.com">
     <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="30">
   </a>
-  <a href="https://linkedin.com/in/andressa-melo-mendes/">
+  <a href="https://linkedin.com/in/andressammendes/">
     <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30">
   </a>
   <a href="https://wa.me/5551993823270">
