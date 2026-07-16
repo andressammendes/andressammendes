@@ -84,6 +84,8 @@
 
 * Análise e Desenvolvimento de Sistemas - UNISINOS (previsão de conclusão 2028)
 * Formação de Cientista de Dados - Comunidade DS (previsão de conclusão 2026)
+* Anestesiologia de Pequenos Animais - IBMVET/Censupeg (concluído em 2023)
+* Medicina Veterinária - ULBRA (concluído em 2019)
   
 ---
 
