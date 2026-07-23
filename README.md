@@ -5,7 +5,7 @@
 <h1 align="center">Andressa Melo Mendes</h1>
 
 <p align="center">
-  <b>Cientista de Dados &nbsp;|&nbsp; Data Scientist </b>
+  <b>Cientista de Dados &nbsp;|&nbsp; Médica Veterinária Anestesista </b>
 </p>
 
 <!--
