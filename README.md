@@ -38,9 +38,22 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 Dashboard Interativo de Dados</h3>
+      <h3>📊 Análise de Dados para Otimização Logística</h3>
       <p>Desenvolvimento de um painel gerencial interativo com as principais métricas de uma empresa de delivery, hospedado em um ambiente Cloud e disponibilizado através de um link web.</p>
+      <p>Principal insight: Centralização de demanda na região Metropolitana (80% dos pedidos)</p>
       <p>🔧 <i>Python, Pandas, NumPy, Plotly, Streamlit</i></p>
+      <a href="https://github.com/andressammendes/delivery_logistics_analysis-curry_company"><b>Ver Projeto →</b></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 Análise de Dados para Otimização de Vendas</h3>
+      <p>Desenvolvimento de um painel gerencial interativo analisando o catálogo de produtos e vendas de um e-commerce.</p>
+      <p>Principal insight: Categoria com maior número de produtos em portfólio apresenta 35% menos recursos visuais por produto do que a média do e-commerce</p>
+      <p>🔧 <i>Power BI, Power Query, DAX, Git, GitHub</i></p>
       <a href="https://github.com/andressammendes/delivery_logistics_analysis-curry_company"><b>Ver Projeto →</b></a>
     </td>
   </tr>
