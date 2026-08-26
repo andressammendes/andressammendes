@@ -1,8 +1,11 @@
-name: Generate Metrics Graph
+name: Generate Simple Metrics Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Atualiza automaticamente à meia-noite
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -15,11 +18,22 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
-          base: header, activity, community, repositories
-          plugin_lines: yes
+          
+          # LAYOUT MINIMALISTA: Desativa tudo e foca no gráfico
           config_theme: dark
+          config_padding: 10, 10
+          config_output: svg
+          config_animations: no
+          
+          # DESATIVA TODOS OS MÓDULOS PADRÃO POLUÍDOS
+          base: "" # Define como vazio para desativar header, repositories, community
+          
+          # HABILITA APENAS O GRÁFICO DE LINHAS (SIMPLICIDADE)
+          plugin_lines: yes
+          plugin_lines_sections: "activity" # Exibe apenas o histórico de atividade
+          plugin_lines_days: 30 # Define quantos dias de histórico mostrar no gráfico
+
+          # A PALETA DE CORES PERFEITA
           palette: custom
-          color_0: "#0d1117"
-          color_1: "#6f42c1"
-          color_2: "#8a5cf5"
-          color_3: "#b48eff"
+          color_0: "#0d1117" # Fundo escuro padrão
+          color_1: "#6f42c1" # Linha e destaques roxos
