@@ -38,10 +38,10 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 Análise de Dados para Otimização Logística</h3>
-      <p>Desenvolvimento de um painel gerencial interativo com as principais métricas de uma empresa de delivery, hospedado em um ambiente Cloud e disponibilizado através de um link web.</p>
-      <p>Principal insight: Centralização de demanda na região Metropolitana (80% dos pedidos)</p>
-      <p>🔧 <i>Python, Pandas, NumPy, Plotly, Streamlit</i></p>
+      <h3>📊 Painel de Business Intelligence e Detecção de Anomalias (E-commerce)</h3>
+      <p>Desenvolvimento de um painel gerencial interativo analisando o catálogo de produtos e vendas de um e-commerce.</p>
+      <p><b>Impacto de Negócio</b>: Mapeamento de assimetrias de portfólio (categoria principal com <b>35% menos</b> recursos visuais por produto) e detecção de riscos financeiros/fraudes (pedidos cancelados/indisponíveis com alta concentração de faturamento via cartão de débito e voucher, além de casos com até <b>28 fragmentações de pagamento</b> por pedido).</p>
+      <p>🔧 <i>Power BI, Power Query, DAX, Git, GitHub</i></p>
       <a href="https://github.com/andressammendes/delivery_logistics_analysis-curry_company"><b>Ver Projeto →</b></a>
     </td>
   </tr>
@@ -50,14 +50,15 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 Análise de Dados para Otimização de Vendas</h3>
-      <p>Desenvolvimento de um painel gerencial interativo analisando o catálogo de produtos e vendas de um e-commerce.</p>
-      <p>Principal insight: Categoria com maior número de produtos em portfólio apresenta 35% menos recursos visuais por produto do que a média do e-commerce</p>
-      <p>🔧 <i>Power BI, Power Query, DAX, Git, GitHub</i></p>
+      <h3>📊 Ecossistema Analítico de Otimização Logística (Marketplace de Delivery)</h3>
+      <p>Desenvolvimento de um painel gerencial interativo com as principais métricas de uma empresa de delivery, hospedado em um ambiente Cloud e disponibilizado através de um link web.</p>
+      <p><b>Impacto de Negócio</b>: Identificação estratégica de concentração de demanda (<b>~80% na região metropolitana</b> vs.<b> <0.5% em zonas semi-urbanas</b>) e detecção de sobrecarga operacional durante eventos (aumento de <b>>70%</b> no tempo médio de entrega).</p>
+      <p>🔧 <i>Python, Pandas, NumPy, Plotly, Streamlit</i></p>
       <a href="https://github.com/andressammendes/delivery_logistics_analysis-curry_company"><b>Ver Projeto →</b></a>
     </td>
   </tr>
 </table>
+
 
 ---
 
@@ -94,10 +95,10 @@
 
 ---
 
-  <h2>💻 Educação & Certificações:</h2>
+  <h2>💻 Formação Acadêmica e Complementar:</h2>
 
-* Análise e Desenvolvimento de Sistemas - UNISINOS (previsão de conclusão 2028)
-* Formação de Cientista de Dados - Comunidade DS (previsão de conclusão 2026)
+* Análise e Desenvolvimento de Sistemas - UNISINOS (previsão de conclusão dez/2028)
+* Formação de Cientista de Dados - Comunidade DS (previsão de conclusão dez/2026)
 * Anestesiologia de Pequenos Animais - IBMVET/Censupeg (concluído em 2023)
 * Medicina Veterinária - ULBRA (concluído em 2019)
   
@@ -119,9 +120,16 @@
 
 ## ✴️ Minha atividade
 
-<p align="center">
+<!-- <p align="center">
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=andressammendes&theme=react-dark&bg_color=0d1117&hide_border=true&area=false&line=6f42c1&point=ffffff" alt="Contribution Graph" width="100%">
+
+</p> -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andressammendes&theme=dark" alt="Gráfico de Atividade" width="100%" />
 </p>
+
+
 
 ---
 
