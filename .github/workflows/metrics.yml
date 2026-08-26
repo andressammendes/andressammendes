@@ -16,7 +16,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: ashutosh00710/github-readme-activity-graph@2.5.0
+      - uses: ashutosh00710/github-readme-activity-graph@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_filepath: github-readme-activity-graph.svg
