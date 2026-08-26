@@ -1,0 +1,25 @@
+name: Generate Metrics Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
+          base: header, activity, community, repositories
+          plugin_lines: yes
+          config_theme: dark
+          palette: custom
+          color_0: "#0d1117"
+          color_1: "#6f42c1"
+          color_2: "#8a5cf5"
+          color_3: "#b48eff"
