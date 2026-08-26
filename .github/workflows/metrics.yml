@@ -1,39 +1,28 @@
-name: Generate Simple Metrics Graph
+name: Generate Activity Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Atualiza automaticamente à meia-noite
+    - cron: "0 0 * * *"
   push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
+    name: generate-activity-graph
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v3
+      - uses: ashutosh00710/github-readme-activity-graph@2.5.0
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
-          
-          # LAYOUT MINIMALISTA: Desativa tudo e foca no gráfico
-          config_theme: dark
-          config_padding: 10, 10
-          config_output: svg
-          config_animations: no
-          
-          # DESATIVA TODOS OS MÓDULOS PADRÃO POLUÍDOS
-          base: "" # Define como vazio para desativar header, repositories, community
-          
-          # HABILITA APENAS O GRÁFICO DE LINHAS (SIMPLICIDADE)
-          plugin_lines: yes
-          plugin_lines_sections: "activity" # Exibe apenas o histórico de atividade
-          plugin_lines_days: 30 # Define quantos dias de histórico mostrar no gráfico
-
-          # A PALETA DE CORES PERFEITA
-          palette: custom
-          color_0: "#0d1117" # Fundo escuro padrão
-          color_1: "#6f42c1" # Linha e destaques roxos
+          output_filepath: github-readme-activity-graph.svg
+          theme: react-dark
+          bg_color: 0d1117
+          hide_border: true
+          area: false
+          line: 6f42c1
+          point: ffffff
